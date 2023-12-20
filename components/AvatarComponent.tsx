@@ -18,28 +18,28 @@ export const AvatarComponent = () => {
         size="xl"
         status="online"
         statusPosition="bottom-left"
-        img="/images/avatar/avatar-4.png"
+        img="./images/avatar/avatar-4.png"
       />
       <Avatar
         shape="circle"
         size="xl"
         status="offline"
         statusPosition="bottom-right"
-        img="/images/avatar/avatar-4.png"
+        img="./images/avatar/avatar-4.png"
       />
       <Avatar
         shape="circle"
         size="xl"
         status="busy"
         statusPosition="top-left"
-        img="/images/avatar/avatar-4.png"
+        img="./images/avatar/avatar-4.png"
       />
       <Avatar
         shape="circle"
         size="xl"
         status="away"
         statusPosition="top-right"
-        img="/images/avatar/avatar-4.png"
+        img="./images/avatar/avatar-4.png"
       />
       <Avatar
         shape="circle"
@@ -48,7 +48,7 @@ export const AvatarComponent = () => {
         status="online"
         statusPosition="bottom-left"
         totalNotification={99}
-        img="/images/avatar/avatar-4.png"
+        img="./images/avatar/avatar-4.png"
       />
       <Avatar
         shape="circle"
@@ -57,7 +57,7 @@ export const AvatarComponent = () => {
         statusType="notification"
         statusPosition="bottom-right"
         totalNotification={99}
-        img="/images/avatar/avatar-4.png"
+        img="./images/avatar/avatar-4.png"
       />
       <Avatar
         shape="circle"
@@ -66,7 +66,7 @@ export const AvatarComponent = () => {
         statusPosition="top-left"
         statusType="notification"
         totalNotification={99}
-        img="/images/avatar/avatar-4.png"
+        img="./images/avatar/avatar-4.png"
       />
       <Avatar
         shape="circle"
@@ -76,7 +76,7 @@ export const AvatarComponent = () => {
         statusPosition="top-right"
         statusType="notification"
         totalNotification={99}
-        img="/images/avatar/avatar-4.png"
+        img="./images/avatar/avatar-4.png"
       />
 
       <Avatar.Group>
@@ -84,31 +84,31 @@ export const AvatarComponent = () => {
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-1.png"
+          img="./images/avatar/avatar-1.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-2.png"
+          img="./images/avatar/avatar-2.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-3.png"
+          img="./images/avatar/avatar-3.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-4.png"
+          img="./images/avatar/avatar-4.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-5.png"
+          img="./images/avatar/avatar-5.png"
         />
         <Avatar shape="circle" size="md" stacked={true} />
         <Avatar shape="circle" size="md" stacked={true} />
@@ -119,31 +119,31 @@ export const AvatarComponent = () => {
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-1.png"
+          img="./images/avatar/avatar-1.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-2.png"
+          img="./images/avatar/avatar-2.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-3.png"
+          img="./images/avatar/avatar-3.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-4.png"
+          img="./images/avatar/avatar-4.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-5.png"
+          img="./images/avatar/avatar-5.png"
         />
         <Avatar shape="circle" size="md" stacked={true} />
         <Avatar shape="circle" size="md" stacked={true} />
@@ -160,31 +160,31 @@ export const AvatarComponent = () => {
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-1.png"
+          img="./images/avatar/avatar-1.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-2.png"
+          img="./images/avatar/avatar-2.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-3.png"
+          img="./images/avatar/avatar-3.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-4.png"
+          img="./images/avatar/avatar-4.png"
         />
         <Avatar
           shape="circle"
           size="md"
           stacked={true}
-          img="/images/avatar/avatar-5.png"
+          img="./images/avatar/avatar-5.png"
         />
         <Avatar shape="circle" size="md" stacked={true} />
         <Avatar.Counter size="md" total={99} href="/" />

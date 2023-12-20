@@ -63,7 +63,7 @@ export const TableComponent = () => {
                 <div className="flex items-center gap-2">
                   <Avatar
                     shape="circle"
-                    img="/images/avatar/avatar-4.png"
+                    img="./images/avatar/avatar-4.png"
                     size="md"
                   />
                   <div>
@@ -157,7 +157,7 @@ export const TableComponent = () => {
                 <div className="flex items-center gap-2">
                   <Avatar
                     shape="circle"
-                    img="/images/avatar/avatar-2.png"
+                    img="./images/avatar/avatar-2.png"
                     size="md"
                   />
                   <div>
@@ -251,7 +251,7 @@ export const TableComponent = () => {
                 <div className="flex items-center gap-2">
                   <Avatar
                     shape="circle"
-                    img="/images/avatar/avatar-3.png"
+                    img="./images/avatar/avatar-3.png"
                     size="md"
                   />
                   <div>
@@ -345,7 +345,7 @@ export const TableComponent = () => {
                 <div className="flex items-center gap-2">
                   <Avatar
                     shape="circle"
-                    img="/images/avatar/avatar-4.png"
+                    img="./images/avatar/avatar-4.png"
                     size="md"
                   />
                   <div>
@@ -439,7 +439,7 @@ export const TableComponent = () => {
                 <div className="flex items-center gap-2">
                   <Avatar
                     shape="circle"
-                    img="/images/avatar/avatar-5.png"
+                    img="./images/avatar/avatar-5.png"
                     size="md"
                   />
                   <div>
