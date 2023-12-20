@@ -17,7 +17,7 @@ export const NavbarComponent = () => {
         </Navbar.Container>
         <Navbar.Brand>
           <Image
-            src="/images/keepLogo.svg"
+            src="./images/keepLogo.svg"
             alt="keep"
             width="100"
             height="40"

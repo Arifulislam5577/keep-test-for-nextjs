@@ -11,11 +11,19 @@ import {
 
 export const TableComponent = () => {
   return (
-    <Table showBorder striped hoverable>
+    <Table
+      showCheckbox={true}
+      showBorder={true}
+      showBorderPosition="right"
+      striped={true}
+      hoverable={true}
+    >
       <Table.Caption>
         <div className="my-5 flex items-center justify-between px-6">
           <div className="flex items-center gap-5">
-            <p className="text-2xl font-semibold text-slate-600">Team member</p>
+            <p className="text-body-1 font-semibold text-metal-600">
+              Team member
+            </p>
             <Badge size="xs" colorType="light" color="gray">
               100 Member
             </Badge>
@@ -38,7 +46,7 @@ export const TableComponent = () => {
       </Table.Caption>
       <Table.Head>
         <Table.HeadCell className="min-w-[290px]">
-          <p className="text-xs font-medium text-slate-400">Type</p>
+          <p className="text-body-6 font-medium text-metal-400">Type</p>
         </Table.HeadCell>
         <Table.HeadCell>Status</Table.HeadCell>
         <Table.HeadCell className="min-w-[152px]">Role</Table.HeadCell>
@@ -47,7 +55,7 @@ export const TableComponent = () => {
         <Table.HeadCell className="min-w-[200px]">Performance</Table.HeadCell>
         <Table.HeadCell className="min-w-[100px]" />
       </Table.Head>
-      <Table.Body className="divide-y divide-gray-25">
+      <Table.Body className="divide-gray-25 divide-y">
         <Table.Row className="bg-white">
           <Table.Cell>
             <div className="flex items-center gap-3">
@@ -59,7 +67,7 @@ export const TableComponent = () => {
                     size="md"
                   />
                   <div>
-                    <p className="-mb-0.5 text-base font-medium text-slate-600">
+                    <p className="-mb-0.5 text-body-4 font-medium text-metal-600">
                       Ralph Edwards
                     </p>
                     <span>&ralph</span>
@@ -94,7 +102,7 @@ export const TableComponent = () => {
             <div className="flex items-center gap-3">
               <div>
                 <Image
-                  src="/images/icon/Series.png"
+                  src="./images/icon/Series.png"
                   width={72}
                   height={36}
                   alt="line"
@@ -112,19 +120,20 @@ export const TableComponent = () => {
             <Popover
               showDismissIcon={false}
               showArrow={false}
-              className="w-48 p-2 border border-slate-100"
-              additionalContent={
-                <ul className="flex flex-col gap-1">
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+              className="w-48 border border-metal-100 p-2"
+            >
+              <Popover.Container className="!mt-0 !block">
+                <ul>
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Delete</span>
                       <span>
                         <Trash />
                       </span>
                     </button>
                   </li>
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Edit</span>
                       <span>
                         <Pencil />
@@ -132,11 +141,12 @@ export const TableComponent = () => {
                     </button>
                   </li>
                 </ul>
-              }
-            >
-              <Button type="outlineGray" size="xs" circle={true}>
-                <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
-              </Button>
+              </Popover.Container>
+              <Popover.Action>
+                <Button type="outlineGray" size="xs" circle={true}>
+                  <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
+                </Button>
+              </Popover.Action>
             </Popover>
           </Table.Cell>
         </Table.Row>
@@ -151,7 +161,7 @@ export const TableComponent = () => {
                     size="md"
                   />
                   <div>
-                    <p className="-mb-0.5 text-base font-medium text-slate-600">
+                    <p className="-mb-0.5 text-body-4 font-medium text-metal-600">
                       Wade Warren
                     </p>
                     <span>&ralph</span>
@@ -186,7 +196,7 @@ export const TableComponent = () => {
             <div className="flex items-center gap-3">
               <div>
                 <Image
-                  src="/images/icon/Series.png"
+                  src="./images/icon/Series.png"
                   width={72}
                   height={36}
                   alt="line"
@@ -204,19 +214,20 @@ export const TableComponent = () => {
             <Popover
               showDismissIcon={false}
               showArrow={false}
-              className="w-48 p-2 border border-slate-100"
-              additionalContent={
-                <ul className="flex flex-col gap-1">
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+              className="w-48 border border-metal-100 p-2"
+            >
+              <Popover.Container className="!mt-0 !block">
+                <ul>
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Delete</span>
                       <span>
                         <Trash />
                       </span>
                     </button>
                   </li>
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Edit</span>
                       <span>
                         <Pencil />
@@ -224,11 +235,12 @@ export const TableComponent = () => {
                     </button>
                   </li>
                 </ul>
-              }
-            >
-              <Button type="outlineGray" size="xs" circle={true}>
-                <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
-              </Button>
+              </Popover.Container>
+              <Popover.Action>
+                <Button type="outlineGray" size="xs" circle={true}>
+                  <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
+                </Button>
+              </Popover.Action>
             </Popover>
           </Table.Cell>
         </Table.Row>
@@ -243,7 +255,7 @@ export const TableComponent = () => {
                     size="md"
                   />
                   <div>
-                    <p className="-mb-0.5 text-base font-medium text-slate-600">
+                    <p className="-mb-0.5 text-body-4 font-medium text-metal-600">
                       Eleanor Pena
                     </p>
                     <span>&ralph</span>
@@ -278,7 +290,7 @@ export const TableComponent = () => {
             <div className="flex items-center gap-3">
               <div>
                 <Image
-                  src="/images/icon/Series.png"
+                  src="./images/icon/Series.png"
                   width={72}
                   height={36}
                   alt="line"
@@ -296,19 +308,20 @@ export const TableComponent = () => {
             <Popover
               showDismissIcon={false}
               showArrow={false}
-              className="w-48 p-2 border border-slate-100"
-              additionalContent={
-                <ul className="flex flex-col gap-1">
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+              className="w-48 border border-metal-100 p-2"
+            >
+              <Popover.Container className="!mt-0 !block">
+                <ul>
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Delete</span>
                       <span>
                         <Trash />
                       </span>
                     </button>
                   </li>
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Edit</span>
                       <span>
                         <Pencil />
@@ -316,11 +329,12 @@ export const TableComponent = () => {
                     </button>
                   </li>
                 </ul>
-              }
-            >
-              <Button type="outlineGray" size="xs" circle={true}>
-                <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
-              </Button>
+              </Popover.Container>
+              <Popover.Action>
+                <Button type="outlineGray" size="xs" circle={true}>
+                  <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
+                </Button>
+              </Popover.Action>
             </Popover>
           </Table.Cell>
         </Table.Row>
@@ -335,7 +349,7 @@ export const TableComponent = () => {
                     size="md"
                   />
                   <div>
-                    <p className="-mb-0.5 text-base font-medium text-slate-600">
+                    <p className="-mb-0.5 text-body-4 font-medium text-metal-600">
                       Jerome Bell
                     </p>
                     <span>&ralph</span>
@@ -370,7 +384,7 @@ export const TableComponent = () => {
             <div className="flex items-center gap-3">
               <div>
                 <Image
-                  src="/images/icon/Series.png"
+                  src="./images/icon/Series.png"
                   width={72}
                   height={36}
                   alt="line"
@@ -388,19 +402,20 @@ export const TableComponent = () => {
             <Popover
               showDismissIcon={false}
               showArrow={false}
-              className="w-48 p-2 border border-slate-100"
-              additionalContent={
-                <ul className="flex flex-col gap-1">
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+              className="w-48 border border-metal-100 p-2"
+            >
+              <Popover.Container className="!mt-0 !block">
+                <ul>
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Delete</span>
                       <span>
                         <Trash />
                       </span>
                     </button>
                   </li>
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Edit</span>
                       <span>
                         <Pencil />
@@ -408,11 +423,12 @@ export const TableComponent = () => {
                     </button>
                   </li>
                 </ul>
-              }
-            >
-              <Button type="outlineGray" size="xs" circle={true}>
-                <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
-              </Button>
+              </Popover.Container>
+              <Popover.Action>
+                <Button type="outlineGray" size="xs" circle={true}>
+                  <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
+                </Button>
+              </Popover.Action>
             </Popover>
           </Table.Cell>
         </Table.Row>
@@ -427,7 +443,7 @@ export const TableComponent = () => {
                     size="md"
                   />
                   <div>
-                    <p className="-mb-0.5 text-base font-medium text-slate-600">
+                    <p className="-mb-0.5 text-body-4 font-medium text-metal-600">
                       Macky Scheman
                     </p>
                     <span>&ralph</span>
@@ -462,7 +478,7 @@ export const TableComponent = () => {
             <div className="flex items-center gap-3">
               <div>
                 <Image
-                  src="/images/icon/Series.png"
+                  src="./images/icon/Series.png"
                   width={72}
                   height={36}
                   alt="line"
@@ -480,19 +496,20 @@ export const TableComponent = () => {
             <Popover
               showDismissIcon={false}
               showArrow={false}
-              className="w-48 p-2 border border-slate-100"
-              additionalContent={
-                <ul className="flex flex-col gap-1">
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+              className="w-48 border border-metal-100 p-2"
+            >
+              <Popover.Container className="!mt-0 !block">
+                <ul>
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Delete</span>
                       <span>
                         <Trash />
                       </span>
                     </button>
                   </li>
-                  <li className="hover:bg-slate-100 py-1 px-2 rounded">
-                    <button className="w-full flex items-center justify-between text-base font-normal text-slate-600">
+                  <li className="rounded px-2 py-1 hover:bg-metal-100">
+                    <button className="flex w-full items-center justify-between text-body-4 font-normal text-metal-600">
                       <span>Edit</span>
                       <span>
                         <Pencil />
@@ -500,11 +517,12 @@ export const TableComponent = () => {
                     </button>
                   </li>
                 </ul>
-              }
-            >
-              <Button type="outlineGray" size="xs" circle={true}>
-                <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
-              </Button>
+              </Popover.Container>
+              <Popover.Action>
+                <Button type="outlineGray" size="xs" circle={true}>
+                  <DotsThreeOutline size={14} color="#5E718D" weight="bold" />
+                </Button>
+              </Popover.Action>
             </Popover>
           </Table.Cell>
         </Table.Row>

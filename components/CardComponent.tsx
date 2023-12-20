@@ -182,7 +182,7 @@ export const CardComponent = () => {
         </Card.Container>
       </Card>
       <Card
-        imgSrc="https://images.prismic.io/staticmania/821cee7b-6b44-48c4-ab95-8a525056489d_blog.jpg?auto=compress,format"
+        imgsrc="./https://images.prismic.io/staticmania/821cee7b-6b44-48c4-ab95-8a525056489d_blog.jpg?auto=compress,format"
         imgSize="md"
         className="max-w-xs"
       >
@@ -238,7 +238,7 @@ export const CardComponent = () => {
           <Image
             height={204}
             width={373}
-            src="https://images.prismic.io/staticmania/821cee7b-6b44-48c4-ab95-8a525056489d_blog.jpg?auto=compress,format"
+            src="./https://images.prismic.io/staticmania/821cee7b-6b44-48c4-ab95-8a525056489d_blog.jpg?auto=compress,format"
             alt="blog"
             className="brightness-50"
           />
@@ -269,7 +269,7 @@ export const CardComponent = () => {
             <Image
               height={600}
               width={200}
-              src="https://images.prismic.io/staticmania/b6fe0b6c-5c0d-46a1-8ac6-68fe59d418c8_blog2.jpg?auto=compress,format"
+              src="./https://images.prismic.io/staticmania/b6fe0b6c-5c0d-46a1-8ac6-68fe59d418c8_blog2.jpg?auto=compress,format"
               alt="blog"
               className="rounded-xl"
             />
@@ -292,7 +292,7 @@ export const CardComponent = () => {
       </Card>
       <Card
         className="max-w-xs overflow-hidden rounded-md"
-        imgSrc="https://images.prismic.io/staticmania/45ce2799-f29b-462f-a795-5d3d5d10c9ad_product-1.avif?auto=compress,format"
+        imgsrc="./https://images.prismic.io/staticmania/45ce2799-f29b-462f-a795-5d3d5d10c9ad_product-1.avif?auto=compress,format"
         imgSize="md"
       >
         <Card.Container className="absolute top-3.5 right-3.5 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-slate-50/50">
@@ -325,7 +325,7 @@ export const CardComponent = () => {
 
       <Card
         className="max-w-xs overflow-hidden rounded-md"
-        imgSrc="https://images.prismic.io/staticmania/56ae80e7-4d23-4bd9-a2f3-01bd6f923a8b_product-2.avif?auto=compress,format"
+        imgsrc="./https://images.prismic.io/staticmania/56ae80e7-4d23-4bd9-a2f3-01bd6f923a8b_product-2.avif?auto=compress,format"
         imgSize="md"
       >
         <Card.Container className="absolute top-3.5 right-3.5 flex h-10 w-10 cursor-pointer items-center justify-center rounded-full bg-slate-50/50">
@@ -372,7 +372,7 @@ export const CardComponent = () => {
 
       <Card
         className="max-w-xs overflow-hidden rounded-md"
-        imgSrc="https://images.prismic.io/staticmania/cb1a34d1-50a8-4b9c-b5e2-020d1c67e993_product-3.avif?auto=compress,format"
+        imgsrc="./https://images.prismic.io/staticmania/cb1a34d1-50a8-4b9c-b5e2-020d1c67e993_product-3.avif?auto=compress,format"
         imgSize="md"
       >
         <Card.Container className="space-y-3 p-6">
@@ -419,7 +419,7 @@ export const CardComponent = () => {
       </Card>
       <Card
         className="overflow-hidden rounded-md md:!max-w-[478px] !max-w-xs"
-        imgSrc="https://images.prismic.io/staticmania/56ae80e7-4d23-4bd9-a2f3-01bd6f923a8b_product-2.avif?auto=compress,format"
+        imgsrc="./https://images.prismic.io/staticmania/56ae80e7-4d23-4bd9-a2f3-01bd6f923a8b_product-2.avif?auto=compress,format"
         imgSize="md"
         horizontal={true}
       >
@@ -462,7 +462,7 @@ export const CardComponent = () => {
         <Card.Container>
           <Card.Container className="h-[60px] w-[60px] bg-primary-25 flex items-center justify-center rounded-full">
             <Image
-              src="/images/icon/pricing.png"
+              src="./images/icon/pricing.png"
               height={24}
               width={24}
               alt="card"
