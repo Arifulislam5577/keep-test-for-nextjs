@@ -148,7 +148,7 @@ export const AvatarComponent = () => {
         <Avatar shape="circle" size="md" stacked={true} />
         <Avatar shape="circle" size="md" stacked={true} />
         <Avatar.Add
-          icon="/images/icon/plus.png"
+          icon="./images/icon/plus.png"
           bg="#444D61"
           size="md"
           ringColor="ring-[#444D61]"
@@ -189,7 +189,7 @@ export const AvatarComponent = () => {
         <Avatar shape="circle" size="md" stacked={true} />
         <Avatar.Counter size="md" total={99} href="/" />
         <Avatar.Add
-          icon="/images/icon/plus.png"
+          icon="./images/icon/plus.png"
           bg="#444D61"
           size="md"
           ringColor="ring-[#444D61]"

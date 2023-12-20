@@ -93,7 +93,7 @@ export const CheckboxGroupComponent = () => {
           title="Paypal"
           description="Payment with paypal and get 10% discount"
           checkboxType="circle"
-          img="/images/company/paypal.png"
+          img="./images/company/paypal.png"
           imgShape="circle"
           value="paypal"
           selected={selected}
@@ -103,7 +103,7 @@ export const CheckboxGroupComponent = () => {
           title="Stripe"
           description="Payment with stripe and get 10% discount"
           checkboxType="circle"
-          img="/images/company/stripe.png"
+          img="./images/company/stripe.png"
           imgShape="circle"
           value="stripe"
           selected={selected}
@@ -113,7 +113,7 @@ export const CheckboxGroupComponent = () => {
           title="Visa"
           description="Payment with Visa and get 10% discount"
           checkboxType="circle"
-          img="/images/company/Visa.png"
+          img="./images/company/Visa.png"
           imgShape="circle"
           value="Visa"
           selected={selected}
@@ -123,7 +123,7 @@ export const CheckboxGroupComponent = () => {
           title="Master Card"
           description="Payment with master card and get 10% discount"
           checkboxType="circle"
-          img="/images/company/mastercard.png"
+          img="./images/company/mastercard.png"
           imgShape="circle"
           value="mastercard"
           selected={selected}

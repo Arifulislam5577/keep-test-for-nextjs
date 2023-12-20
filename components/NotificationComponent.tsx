@@ -40,7 +40,7 @@ export const NotificationComponent = () => {
       >
         <Notification.Media>
           <Image
-            src="./https://images.prismic.io/staticmania/be298f8b-0acf-4db1-9453-0f6288bfc584_notification.jpg?auto=compress,format"
+            src="https://images.prismic.io/staticmania/be298f8b-0acf-4db1-9453-0f6288bfc584_notification.jpg?auto=compress,format"
             alt="notification"
             width={382}
             height={240}
@@ -71,7 +71,7 @@ export const NotificationComponent = () => {
       >
         <Notification.Media>
           <Image
-            src="./https://images.prismic.io/staticmania/be298f8b-0acf-4db1-9453-0f6288bfc584_notification.jpg?auto=compress,format"
+            src="https://images.prismic.io/staticmania/be298f8b-0acf-4db1-9453-0f6288bfc584_notification.jpg?auto=compress,format"
             alt="notification"
             width={382}
             height={240}
@@ -107,7 +107,7 @@ export const NotificationComponent = () => {
           </Notification.Description>
           <Notification.Media>
             <Image
-              src="./https://images.prismic.io/staticmania/be298f8b-0acf-4db1-9453-0f6288bfc584_notification.jpg?auto=compress,format"
+              src="https://images.prismic.io/staticmania/be298f8b-0acf-4db1-9453-0f6288bfc584_notification.jpg?auto=compress,format"
               alt="notification"
               width={382}
               height={240}

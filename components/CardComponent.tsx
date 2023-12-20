@@ -453,7 +453,7 @@ export const CardComponent = () => {
         <Card.Container>
           <Card.Container className="h-[60px] w-[60px] bg-primary-25 flex items-center justify-center rounded-full">
             <Image
-              src="images/icon/pricing.png"
+              src="./images/icon/pricing.png"
               height={24}
               width={24}
               alt="card"

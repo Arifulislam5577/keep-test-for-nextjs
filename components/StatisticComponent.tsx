@@ -10,7 +10,7 @@ export const StatisticComponent = () => {
       filterData={["January", "February", "March", "April"]}
     >
       <div className="flex items-center gap-4">
-        <Statistic.Img img="/images/avatar/avatar-4.png" />
+        <Statistic.Img img="./images/avatar/avatar-4.png" />
         <div>
           <div className="flex items-center gap-2">
             <Statistic.Amount>{7381237}</Statistic.Amount>

@@ -93,7 +93,7 @@ export const SidebarComponent = () => {
         className="border border-slate-100"
         aria-label="Sidebar with multi-level dropdown example"
       >
-        <Sidebar.Logo href="" img="/images/keepLogo.svg" imgAlt="Keep logo" />
+        <Sidebar.Logo href="" img="./images/keepLogo.svg" imgAlt="Keep logo" />
         <Sidebar.Items>
           <Sidebar.ItemGroup>
             <Sidebar.Item href="#" icon={<SquaresFour size={24} />}>
